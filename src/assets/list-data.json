@@ -1697,7 +1697,7 @@
     "id": 122,
     "name": "Mr. Mime",
     "type": ["Psychic", "Fairy"],
-    "image": "images/122mime.png",
+    "image": "images/122mrmime.png",
     "stats": {
       "HP": 40,
       "Attack": 45,

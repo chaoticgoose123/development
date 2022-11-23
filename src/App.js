@@ -101,7 +101,7 @@ function App() {
   const [collection, setCollection] = useState({});
 
   const totalStats = Object.entries(collection).reduce(
-    (acc, [id, quantity]) => addStats(acc, listData[id].stats, quantity),
+    (acc, [id, quantity]) => addStats(acc, listData[id - 1].stats, quantity),
     zeroStat
   );
   const totalQuantity = Object.entries(collection).reduce(
